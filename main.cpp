@@ -25,7 +25,7 @@ void get_slope_dist(struct pdb pdbfile[],int file_length,vector<struct arr> &v)
       v.push_back(temp);
    }
 }
-float alighnment(vector<struct arr> &v,vector<struct arr> &v1,float threshold)
+float alignment(vector<struct arr> &v,vector<struct arr> &v1,float threshold)
 {
   struct arr a[10000],b[10000];
   int n1=v.size(),n2=v1.size();
@@ -69,7 +69,7 @@ int main(int argc,char *argv[])
     get_slope_dist(pdbfile2,filelength2,v2);
     float max1;
     float threshold = 0.5;
-    max1=alighnment(v1,v2,threshold);
+    max1=alignment(v1,v2,threshold);
     cout<<max1;
     max1=-1;
     for(int i=0,k=1;i<filelength1 && k<filelength1;i++,k++)
@@ -113,5 +113,5 @@ int main(int argc,char *argv[])
            max1=x;
       }
     }
-    printf("max1 is %f\n",max1);
+    printf("Structural similarity is %f\n",max1);
 }
