@@ -8,9 +8,9 @@ Tech Pre-Requirements:-
 1. Dynamic Programming
 2. Computer Graphics.
 
-Executing the program
-1. git clone https://github.com/ayushchopra96/topologize.git
-2. cd topologize
+Executing the program <br>
+1. git clone https://github.com/ayushchopra96/topologize.git <br>
+2. cd topologize <br>
 3. sh generate_executable.sh
 4. ./a.out <path-to-pdb1> <path-to-pdb2>
 
