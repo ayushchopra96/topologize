@@ -5,7 +5,7 @@ Subsecond result produced.<br>
 Takes as input PDB files for the 2 proteins.<br>
 Test pdb files have been stored in the files folder<br>
 
-Tech Pre-Requirements:-
+Tech Pre-Requirements:-<br>
 1. Dynamic Programming<br>
 2. Computer Graphics.
 
